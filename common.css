@@ -1,1 +1,8 @@
 @charset "utf-8";
+/* base */
+body,ul,li,ol,p,h1,h2,h3,h4,h5,h6,div,dl,dt,dd{margin:0;padding:0;}
+body{font:normal 12px "맑은 고딕","Malgun Gothic", serif;}
+ul{list-style:none;}
+img{border:0;vertical-align:top;}
+a{text-decoration:none;}
+table{border-collapse: collapse}
