@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+@media screen and (min-width:1600px) {
+
+    #commonList {
+        width: 100rem;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    section .title>h1{
+        font-size:calc(70px/1.2)
+    }
+    section .title p{
+        margin-top:2.375rem;
+    }
+    #subVisual{
+        height:calc(1080px/1.7)
+    }
+
+    #commonList {
+        width: 90%;
+    }
+
+    #commonList .product {
+        margin-top: calc(var(--largest2-margin)/2); /* 150px */
+        width: 30%
+    }
+    #commonList .productCont {
+        width: 100%;
+        margin: 0 auto;
+    }
+    #commonList .productCont .name span{
+        font-size:calc(var(--normal2-size)/1.1)
+    }
+    #commonList .productCont .icons {
+        cursor: pointer;
+        flex-wrap: nowrap;
+        display: flex;
+    }
+}
+
+@media screen and (max-width:768px) {
+    section .title>h1{
+        font-size:calc(70px/1.5)
+    }
+    section .title>p{
+        font-size: calc(16px /1.1)
+    }
+    #subVisual {
+        height: calc(1080px / 2)
+    }
+
+    #commonList {
+        width: 90%;
+    }
+
+    #commonList>div {
+        width: 100%;
+        margin: 4.375rem auto 0;
+    }
+
+    #commonList .product {
+        margin-top: calc(var(--largest2-margin)/2);
+        /* 150px */
+        width: 46.5%
+    }
+
+}
+
+
+@media screen and (max-width:480px) {
+    #commonList .productCont{
+        flex-direction: column;
+    }
+    #commonList .product{
+        width: 100%;
+    }
+    section .title h1{
+        margin-top:0
+    }
+    section .title>h1 {
+        font-size: calc(70px/1.8);
+    }
+    #commonList .productCont .name span {
+        font-size: calc(var(--normal2-size)/1);
+    }
+}

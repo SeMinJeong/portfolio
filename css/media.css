@@ -1,0 +1,584 @@
+@charset "utf-8";
+
+@media screen and (max-width:1600px) {
+
+    /* ====== section ====== */
+    section .title {
+        width: 80%;
+    }
+
+    section .title p {
+        width: 90%;
+    }
+
+    /* ====== new collections ====== */
+    #newCollect .imgContent img {
+        width: 50%;
+    }
+
+    #newCollect .imgContent span {
+        top: 57%;
+        left: 66%;
+        transform: translate(-57%, -66%)
+    }
+
+    /* ====== collections ====== */
+    #collects .imgContent .parent {
+        width: 45%
+    }
+
+    #collects .imgContent .parent img {
+        width: 100% !important
+    }
+
+    #collects figure.parent figcaption {
+        height: 89%;
+    }
+
+    #collects figure.parent p {
+        margin-top: 0;
+        /* width: 300px; */
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 8;
+        overflow: hidden;
+        margin-top: 6.25rem;
+        /* 100px */
+    }
+
+    #collects figure.parent figcaption h2 {
+        font-size: calc(var(--large-size) / 1.2);
+    }
+
+    /* ====== network & poliworld ====== */
+    #network,
+    #poliworld {
+        width: 80%;
+        margin-bottom: 3.625rem
+            /* 58px */
+    }
+
+    #network .imgCont,
+    #poliworld .imgCont {
+        width: 100%;
+    }
+
+    #network .imgCont img,
+    #poliworld .imgCont img {
+        width: 100%;
+    }
+
+    /* ====== catalogs ====== */
+
+    #catalogs .imgContent div img {
+        width: 100%;
+    }
+
+    /* ====== footer ====== */
+    #footer {
+        padding: 70px 100px
+    }
+
+    #footer ul {
+        width: 100%;
+    }
+
+    #footer .poliform {
+        width: 80%;
+        text-align: center;
+        margin: 70px auto;
+    }
+
+    #footer .poliform span:nth-child(2) {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width:1100px) and (max-width: 1440px) {
+
+    /* ====== nav ====== */
+    nav>div {
+        padding: 1.2rem 3.688rem;
+    }
+    /* ====== our knowledge ====== */
+    #knowledge figure.parent h2 {
+        font-size: calc(var(--large-size)/1.35)
+    }
+
+    #knowledge figure.parent figcaption {
+        top: 2.75rem;
+        /* 60px */
+        left: 2.75rem;
+        /* 60px */
+    }
+
+}
+
+@media screen and (min-width:769px) and (max-width: 1100px) {
+
+    /* ====== nav ====== */
+    nav>div {
+        padding: 1.2rem var(--normal4-padding)
+    }
+
+    /* ====== colletions ====== */
+    #collects figure.parent figcaption {
+        padding: 0;
+        height: 100%
+    }
+
+    #collects figure.parent p {
+        margin-top: 1.563rem;
+        /* 25px */
+        font-size: calc(var(--normal2-size) / 1.2)
+    }
+
+    /* ====== our knowledge ====== */
+    #knowledge figure.parent figcaption {
+        top: 2.75rem;
+        /* 60px */
+        left: 2.75rem;
+        /* 60px */
+    }
+
+    #knowledge figure.parent h2 {
+        font-size: calc(var(--large-size)/1.5)
+    }
+    #knowledge figure.parent h2::after {
+        top: 5.5rem;
+        height: 1px;
+    }
+
+    /* ====== network & poliworld ====== */
+    #network .textCont,
+    #poliworld .textCont {
+        width: 50%;
+    }
+
+    #network .textCont {
+        padding: 0 var(--normal3-padding) 0 0;
+    }
+
+    #poliworld .textCont {
+        padding: 0 0 0 var(--normal3-padding);
+    }
+
+    #poliworld .noticeTitle {
+        flex-flow: wrap;
+        line-height: 2;
+    }
+    #footer .footerList li.footerTitle img{
+        display: block;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+
+    /* ====== nav ====== */
+    nav>div {
+        padding: 1.2rem var(--normal4-padding)
+    }
+
+    #newCollect .imgContent .rightImg span {
+        font-size: calc(var(--large-size)/1.5)
+    }
+
+    /* ====== collections ====== */
+    #collects figure.parent figcaption {
+        width: 100%;
+    }
+
+    #collects figure.parent figcaption h2 {
+        font-size: calc(var(--large-size) / 1.5);
+        top: 57%
+    }
+
+    #collects figure.parent figcaption {
+        padding: 0
+    }
+
+    #collects figure.parent figcaption p {
+        margin: 2.438rem;
+        /* 39px */
+        font-size: var(--small-size)
+            /* 14px */
+    }
+
+    #collects figure.parent p {
+        padding: var(--smallest-padding)
+    }
+
+    #collects figure.parent figcaption::before {
+        top: 2.125rem;
+        right: 0.9rem;
+        bottom: 0.375rem;
+        /* 6px */
+        left: 0.875rem;
+    }
+
+    #collects figure.parent figcaption::after {
+        top: 1.125rem;
+        right: 1.875rem;
+        bottom: -0.875rem;
+        /* 14px */
+        left: 1.8rem;
+    }
+
+    /* ====== our knowledge ====== */
+
+    #knowledge .imgContent {
+        flex-direction: column;
+    }
+    #knowledge .imgContent figure.parent{
+        margin-right: 0;
+        margin-bottom: 0.938rem /* 15px */
+    }
+    #knowledge figure.parent h2 {
+        font-size: calc(var(--large-size)/1.1);
+    }
+    #knowledge figure.parent figcaption {
+        top: 4.5rem;
+        left: 2.563rem /* 25px */;
+    }
+    #knowledge figure.parent h2::after {
+        top: 6.5rem;
+        height: 1px;
+    }
+
+    /* ====== network & poliworld ====== */
+    #network,
+    #poliworld {
+        flex-direction: column;
+    }
+
+    #network .textCont,
+    #poliworld .textCont {
+        width: 100%
+    }
+
+    #network .textCont,
+    #poliworld .textCont {
+        padding: 0;
+    }
+
+    #network .textCont h1,
+    #poliworld .textCont h1 {
+        line-height: 1.3;
+        text-align: center;
+    }
+
+    #network .textCont p,
+    #poliworld .textCont p {
+        text-align: center;
+    }
+
+    #poliworld .noticeTitle {
+        flex-flow: wrap;
+        line-height: 2;
+    }
+
+    #network .imgCont,
+    #poliworld .imgCont {
+        margin-top: 4.375rem
+            /* 70px */
+    }
+
+    /* ====== catalogs ====== */
+    #catalogs {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #catalogs .imgContent div {
+        margin-right: 0.938rem
+            /* 15px */
+    }
+
+    #catalogs .imgContent div:last-child {
+        margin-right: 0
+    }
+    #footer .footerList li.footerTitle img{
+        display: block;
+    }
+
+    #poliworld .noticeTitle {
+        flex-flow: nowrap;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    nav span.logo {
+        font-size: calc(var(--large-size)/1.2)
+    }
+    nav ul.menuIcons li:last-child{
+        padding: 0;
+    }
+
+    section .title h1 {
+        margin-top: calc(16.25rem/2)
+    }
+
+    /* ====== our knowledge ====== */
+
+    #knowledge .imgContent {
+        flex-direction: column;
+    }
+
+    #knowledge .imgContent figure.parent {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    #knowledge figure.parent h2 {
+        font-size: calc(var(--large-size)/1.2)
+    }
+
+    #knowledge figure.parent figcaption {
+        top: 3.5rem;
+        left: 2.8rem;
+    }
+
+    #knowledge figure.parent h2::after {
+        top: 6.5rem;
+    }
+
+    /* ====== contract ====== */
+    #contract .imgContent {
+        height: calc(57rem/2);
+    }
+
+    /* ====== catalogs ====== */
+    #catalogs .imgContent {
+        flex-direction: column;
+    }
+
+    #catalogs .imgContent div {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+    #footer{
+        padding: 3.125rem 1.25rem!important /* 50px 20px*/ 
+    }
+    #footer .btnCont {
+        flex-wrap: wrap;
+    }
+    #footer .btnCont button {
+        width: 100% !important;
+    }
+    #footer input[type="text"]{
+        width: 100% !important;
+    }
+
+}
+
+@media screen and (max-width:376px) {
+    nav>div{
+        padding:1.2rem 20px;
+    }
+    nav span.logo{
+        font-size: calc(var(--large-size)/1.5);
+    }
+    nav .toggleBtn{
+        width:28px
+    }
+    nav ul.menuIcons li{
+        padding:0;
+    }
+    section .title h1 {
+        font-size: calc(var(--large-size)/1.4)
+    }
+
+    section .textCont h1 {
+        font-size: calc(var(--large-size)/1.3)
+    }
+    section .textCont p,
+    section .title p,
+    #contract .imgContent span,
+    section .noticeTitle>span {
+        font-size: calc(var(--normal3-size)/1.2)
+    }
+
+    section .title span {
+        font-size: calc(var(--normal3-size)/1.3)
+    }
+
+    section .title p {
+        margin-top: calc(4.375rem/1.5);
+        padding-bottom: calc(var(--normal3-padding)/1.5)
+    }
+
+    section .imgContent {
+        margin-top: calc(4.375rem/1.5);
+    }
+
+    /* ====== newCollect ====== */
+    #newCollect .imgContent img.left_img {
+        display: none;
+    }
+
+    /* ====== collects ====== */
+    #collects .imgContent .parent {
+        width: 100%;
+        margin: 0
+    }
+
+    #collects figure.parent:nth-child(2),
+    #collects figure.parent:nth-child(3),
+    #collects figure.parent:nth-child(4) {
+        margin-top: 0.938rem
+            /* 15px */
+    }
+
+    #collects .imgContent {
+        margin-top: calc(4.375rem/1.5)
+    }
+
+    /* ====== our knowledge ====== */
+
+    #knowledge figure.parent figcaption {
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    #knowledge figure.parent h2::after {
+        display: none;
+    }
+    #knowledge figure.parent h2{
+        font-size:calc(var(--large-size)/1.4)
+    }
+    /* ====== network & poliworld ====== */
+    #network,
+    #poliworld {
+        margin-top: calc(16.25rem /2);
+        /* 260px */
+    }
+
+    /* ====== contract ====== */
+    #contract .imgContent h1 {
+        font-size: calc(var(--large-size)/1.2)
+    }
+
+    #contract .imgContent span {
+        padding: 0 1.25rem
+            /*0 20px*/
+    }
+
+    /* ====== footer ====== */
+    #footer .footerList{
+        width: 80% !important;
+    }
+    #footer .btnCont {
+        flex-wrap: wrap;
+    }
+
+    #footer .btnCont button {
+        width: 100% !important;
+    }
+    #footer input[type="text"]{
+        width: 100% !important;
+    }
+}
+
+/* ====== only footer mediaQuery footer ====== */
+@media screen and (max-width: 1100px) {
+
+    /* ====== footer ====== */
+    #footer>h1 {
+        display: none;
+    }
+
+    #footer .footerList {
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 70%;
+        margin:0 auto;
+    }
+
+    #footer ul.iconsList {
+        justify-content: center;
+    }
+
+    #footer .findUs{
+        width: 100%;
+    }
+    #footer .findUs h1 {
+        text-align: center;
+        line-height: 1.3;
+        margin: 2.5rem 0 2.5rem 0
+    }
+
+    #footer .findUs p {
+        text-align: center;
+    }
+
+    #footer ul.listCont {
+        display: none;
+    }
+
+    #footer .poliform {
+        display: none;
+    }
+
+    #footer{
+        padding:4.375rem; /* 70px */
+        margin-top: calc(260px / 2)
+    }
+    #footer h1 {
+        font-size: calc(var(--large-size)/1.2)
+    }
+
+    #footer ul.iconsList li:last-child {
+        margin-right: 0
+    }
+
+    #footer .footerTitle i {
+        display: block;
+    }
+    #footer .btnCont button {
+        width: 40%;
+    }
+
+    #footer ul.listCont {
+        display: block
+    }
+    #footer ul.listCont:last-child{
+        margin-top:4.375rem; /* 70px */
+    }
+    #footer ul.locator{
+        margin-top: 4.375rem; /* 70px */
+    }
+    #footer ul.locator span.line{
+        display: none;
+    }
+    #footer ul.list,
+    #footer ul.locator span
+    {
+        display: block;
+    }
+    #footer ul.locator .searchCont{
+        margin:0 0 20px 0;
+    }
+    /* #footer li.company ul.list li:last-child{
+        padding-bottom:20px
+    } */
+    #footer input[type="text"]{
+    width: 60%;
+    }
+    #footer ul.listCont .footerTitle{
+        border-top:1px solid #c5c5c5;
+        padding: 1.5rem 0;
+        margin:0;
+        justify-content: space-between;
+        display: flex;
+    }
+    
+    #footer ul.listCont .footerTitle.collection{
+        border-bottom:1px solid #c5c5c5;
+        align-items: center;
+    }
+}

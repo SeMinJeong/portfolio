@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1263" viewBox="0 0 1920 1263">
+  <defs>
+    <style>
+      .cls-1, .cls-4 {
+        fill: #191919;
+      }
+
+      .cls-1 {
+        font-size: 17px;
+      }
+
+      .cls-1, .cls-3 {
+        font-family: Roboto-Regular, Roboto;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #20232d;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        font-size: 18px;
+      }
+
+      .cls-4 {
+        font-size: 38px;
+        font-family: PlayfairDisplay-Bold, Playfair Display;
+        font-weight: 700;
+      }
+
+      .cls-5 {
+        fill: url(#pattern);
+      }
+
+      .cls-6 {
+        fill: rgba(0,0,0,0.78);
+        opacity: 0.7;
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 1920 1080">
+      <image width="1920" height="1080" xlink:href="07.contract-image.jpg"/>
+    </pattern>
+  </defs>
+  <g id="_07.contract" data-name="07.contract" transform="translate(0 -4528)">
+    <g id="Details_arrow" data-name="Details arrow" transform="translate(927.5 4769)">
+      <text id="Discover" class="cls-1" transform="translate(-2.5)"><tspan x="-32.697" y="16">Discover</tspan></text>
+      <path id="패스_21" data-name="패스 21" class="cls-2" d="M157.486,44.162l-8,8-8-8" transform="translate(-116.986 -12.162)"/>
+    </g>
+    <text id="Poliform_s_talent_is_its_know-how_a_capacity_that_merges_culture_and_knowledge_and_which_prior_to_becoming_a_gesture_is_a_design_idea." data-name="Poliform&apos;s talent is its know-how, a capacity that merges culture 
+and knowledge and which, prior to becoming a gesture, is a design idea." class="cls-3" transform="translate(376 4649)"><tspan x="-252.866" y="17">Poliform&apos;s talent is its know-how, a capacity that merges culture </tspan><tspan x="-285.855" y="45">and knowledge and which, prior to becoming a gesture, is a design idea.</tspan></text>
+    <text id="contract" class="cls-4" transform="translate(671.5 4528)"><tspan x="-106.438" y="41">CONTRACT</tspan></text>
+    <g id="그룹_37070" data-name="그룹 37070">
+      <rect id="이미지" class="cls-5" width="1920" height="912" transform="translate(0 4879)"/>
+      <rect id="이미지-2" data-name="이미지" class="cls-6" width="1920" height="912" transform="translate(0 4879)"/>
+    </g>
+  </g>
+</svg>

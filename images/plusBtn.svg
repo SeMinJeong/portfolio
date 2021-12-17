@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #20232d;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        opacity: 0;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-5 {
+        fill: #f0f;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="사각형_36341" data-name="사각형 36341" class="cls-1" width="28" height="28"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_37108" data-name="그룹 37108" transform="translate(-2836.162 -3068.162)">
+    <line id="선_467" data-name="선 467" class="cls-2" y2="12" transform="translate(2850.162 3076.162)"/>
+    <line id="선_468" data-name="선 468" class="cls-2" x1="12" transform="translate(2844.162 3082.162)"/>
+    <g id="그룹_37107" data-name="그룹 37107" class="cls-3" transform="translate(2836.162 3068.162)">
+      <g id="그룹_37106" data-name="그룹 37106" transform="translate(0)">
+        <g id="그룹_37105" data-name="그룹 37105" class="cls-4">
+          <rect id="사각형_36340" data-name="사각형 36340" class="cls-5" width="28" height="28" transform="translate(0 0)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

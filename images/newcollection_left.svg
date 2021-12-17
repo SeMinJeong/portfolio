@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="884" viewBox="0 0 800 884">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#pattern);
+      }
+    </style>
+    <pattern id="pattern" width="1" height="1" viewBox="23.231 15.501 650.873 719.215">
+      <image preserveAspectRatio="xMidYMid slice" width="800" height="932.777" xlink:href="%EA%B7%B8%EB%A3%B9%2037110-image.jpg"/>
+    </pattern>
+  </defs>
+  <g id="그룹_37110" data-name="그룹 37110" transform="translate(-160 -1752)">
+    <rect id="_01_image_left" data-name="01_image_left" class="cls-1" width="800" height="884" transform="translate(160 1752)"/>
+  </g>
+</svg>

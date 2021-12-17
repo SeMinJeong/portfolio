@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #050505;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="그룹_37066" data-name="그룹 37066" transform="translate(-160 -32)">
+    <g id="그룹_35804" data-name="그룹 35804">
+      <rect id="사각형_27695" data-name="사각형 27695" class="cls-1" width="10.5" height="2.334" transform="translate(163.5 37.834)"/>
+      <rect id="사각형_27696" data-name="사각형 27696" class="cls-1" width="21" height="2.334" transform="translate(163.5 44.834)"/>
+      <rect id="사각형_27697" data-name="사각형 27697" class="cls-1" width="16.334" height="2.334" transform="translate(163.5 51.834)"/>
+    </g>
+    <rect id="사각형_27701" data-name="사각형 27701" class="cls-2" width="28" height="28" transform="translate(160 32)"/>
+  </g>
+</svg>

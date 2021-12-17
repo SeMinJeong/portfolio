@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #dcdcdc;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <g id="그룹_37114" data-name="그룹 37114" transform="translate(-5687 -1836)">
+    <path id="패스_13641" data-name="패스 13641" class="cls-1" d="M22.783,14.975a5.626,5.626,0,0,0,0-7.988,5.7,5.7,0,0,0-8.031,0,5.611,5.611,0,0,0-.528.616,5.524,5.524,0,0,0-.529-.616,5.7,5.7,0,0,0-8.031,0,5.624,5.624,0,0,0,0,7.986l8.521,8.472Z" transform="translate(5689.5 1838.166)"/>
+    <rect id="사각형_36342" data-name="사각형 36342" class="cls-2" width="34" height="34" transform="translate(5687 1836)"/>
+  </g>
+</svg>

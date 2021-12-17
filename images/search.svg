@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #191919;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-4 {
+        opacity: 0.2;
+      }
+
+      .cls-5 {
+        clip-path: url(#clip-path-2);
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="사각형_27684" data-name="사각형 27684" class="cls-1" width="28" height="28"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="사각형_27683" data-name="사각형 27683" class="cls-2" width="28" height="28"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_35794" data-name="그룹 35794" class="cls-3">
+    <path id="패스_23" data-name="패스 23" class="cls-1" d="M25,23.352l-4.3-4.3A9.368,9.368,0,1,0,19.047,20.7l4.3,4.3ZM6.334,13.335a7,7,0,1,1,7,7,7.008,7.008,0,0,1-7-7" transform="translate(-0.5 -0.5)"/>
+    <g id="그룹_35793" data-name="그룹 35793" class="cls-4">
+      <g id="그룹_35792" data-name="그룹 35792">
+        <g id="그룹_35791" data-name="그룹 35791" class="cls-5">
+          <rect id="사각형_27682" data-name="사각형 27682" class="cls-2" width="28" height="28"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

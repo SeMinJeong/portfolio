@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #000;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        opacity: 0;
+      }
+
+      .cls-4 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-5 {
+        fill: #f0f;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect id="사각형_36281" data-name="사각형 36281" class="cls-1" width="48" height="48"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_37112" data-name="그룹 37112" transform="translate(-1604 -1150)">
+    <g id="그룹_37111" data-name="그룹 37111">
+      <line id="선_447" data-name="선 447" class="cls-2" x2="6" transform="translate(1610 1162)"/>
+      <line id="선_448" data-name="선 448" class="cls-2" x2="24" transform="translate(1622 1162)"/>
+      <line id="선_449" data-name="선 449" class="cls-2" x2="24" transform="translate(1610 1174)"/>
+      <line id="선_450" data-name="선 450" class="cls-2" x2="6" transform="translate(1640 1174)"/>
+      <line id="선_451" data-name="선 451" class="cls-2" x2="24" transform="translate(1622 1186)"/>
+      <line id="선_452" data-name="선 452" class="cls-2" x2="6" transform="translate(1610 1186)"/>
+      <circle id="타원_3583" data-name="타원 3583" class="cls-2" cx="3" cy="3" r="3" transform="translate(1616 1159)"/>
+      <circle id="타원_3584" data-name="타원 3584" class="cls-2" cx="3" cy="3" r="3" transform="translate(1616 1183)"/>
+      <circle id="타원_3585" data-name="타원 3585" class="cls-2" cx="3" cy="3" r="3" transform="translate(1634 1171)"/>
+    </g>
+    <g id="그룹_37009" data-name="그룹 37009" class="cls-3" transform="translate(1604 1150)">
+      <g id="그룹_37008" data-name="그룹 37008">
+        <g id="그룹_37007" data-name="그룹 37007" class="cls-4">
+          <rect id="사각형_36280" data-name="사각형 36280" class="cls-5" width="48" height="48"/>
+        </g>
+      </g>
+    </g>
+    <rect id="사각형_36282" data-name="사각형 36282" class="cls-1" width="48" height="48" transform="translate(1604 1150)"/>
+    <rect id="사각형_36283" data-name="사각형 36283" class="cls-1" width="48" height="48" transform="translate(1604 1150)"/>
+  </g>
+</svg>
